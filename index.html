@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>POLICE ROBOTS</title>
+		<link href="css/reset.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700|Roboto+Slab:400,100,300,700|Rajdhani:400,500,600,700,300' rel='stylesheet' type='text/css'>
+		<script src="https://use.fontawesome.com/0b8790a92d.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="js/diagram.js"></script>
+		<script src="js/accordion.js"></script>
+		<script src="js/map.js"></script>
+    </head>
+    <body>
+        
+        <header>
+        	<div class="dot-overlay"></div>
+
+        	<div id="rsBrand">
+	        	<img src="assets/rs_logo-red.svg" alt="RS Logo" id="rsLogo-red">
+	        	<h5 id="rsName">By Ryne Schillinger</h4>
+	        </div>
+
+	        <div class="page-wrap" id="hero-copy">
+
+		        <div id="headline-div">
+		        	<h1 id="headline">SWEET ROBOT HEADLINE &mdash;</h1>
+		        </div>
+
+		        <div id="excerpt-div">
+		        	<p class="red" id="excerpt">
+		        		On July 7, 2016, a standoff between a lone sniper and the Dallas police department ended when a bomb disposal robot disposed of the gunman. How do these robots work, and what do they mean for the future of urban policing?
+		        	</p>
+		        	<a href="#intro"><img src="assets/arrow-down.svg" alt="Scroll Down" id="arrow-down"><a>
+		        </div>
+
+		    </div>
+		    
+        </header>
+
+        <section class="page-wrap" id="intro">
+        	
+	        <div class="left-column">
+	        	<h5 id="date">Jul 21, 2016</h5>
+	        	<div id-"share-buttons">
+	        		<a href="https://www.facebook.com/sharer/sharer.php?u=www.ryneschillinger.com" target="_blank"><img src="assets/share-facebook.svg" alt="Facebook" class="share-button"></a>
+		        	<a href="http://twitter.com/intent/tweet?text=http%3A%2F%2Fwww.ryneschillinger.com" target="_blank"><img src="assets/share-twitter.svg" alt="Facebook" class="share-button"></a>
+		        	<a href="mailto:"><img src="assets/share-mail.svg" alt="Facebook" class="share-button"></a>
+	        	</div>
+	        </div>
+
+	        <div class="main-column" id="lead-in">
+				<p>
+	        		<span class="drop-cap">T</span><b>orem ipsum dolor sit amet,</b> consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum.
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. <a>Phasellus facilisis auctor lacinia.</a> Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        	<p>
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        	<p>
+	        		Etiam imperdiet lorem id sollicitudin scelerisque. Donec euismod vel neque nec venenatis. Integer lobortis vehicula erat nec congue. Donec vitae iaculis elit, ac condimentum leo. Suspendisse suscipit nisi a gravida facilisis. Proin in dignissim massa. Nulla pulvinar rutrum odio at pellentesque. Sed rhoncus eget magna non fermentum. Donec suscipit convallis felis, ut varius sapien viverra in.
+	        	</p>
+	        	<p>
+	        		Nunc est elit, luctus vitae consectetur ut, viverra eget dui. Phasellus feugiat, purus at fringilla consequat, risus velit euismod nunc, eu placerat metus tellus vitae dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vivamus quam odio, egestas ullamcorper tortor sed, dictum eleifend nulla. Fusce non sollicitudin neque, sed pharetra diam. In non semper felis, eu vestibulum enim. Cras nulla eros, blandit ut suscipit in, luctus sed augue. Sed viverra augue ut nisi elementum, nec vestibulum leo posuere. Cras eget nulla in dui viverra pretium. Aliquam volutpat cursus lorem, ut semper urna bibendum sit amet. Donec accumsan eros hendrerit augue hendrerit cursus. Duis gravida vehicula elit molestie molestie.
+	        	</p>
+	        </div>
+
+        </section>
+
+        <section id="diagram">
+
+        	<div class="page-wrap">
+	        	
+	        	<div id="diagram-image">
+	        		<a href=""><div class="node" id="node-gripper"></div><a>
+	        		<a href=""><div class="node" id="node-camera"></div></a>
+	        		<div class="node" id="node-wheels"></div>
+	        		<a href=""><div class="node" id="node-speakers"></div></a>
+	        		<a href=""><div class="node" id="node-interface"></div></a>
+	        		<img src="assets/diagram-image.png" alt="robot diagram">
+	        	</div>
+
+	        	<div id="diagram-info">
+	        		<h4 class="info-header">How do they work?</h4>
+	        		<div id="info-container">
+		        		<div class="info-left">
+		        			<img src="assets/icon_camera.svg" alt="icon" id="info-icon">
+		        			<hr class="info-dash">
+		        		</div>
+		        		<div class="diagram-text">
+		        			<h3 id="info-label">CAMERA</h3>
+			        		<p class="small" id="info-blurb">
+			        			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor turpis sed ultricies pretium. Curabitur tempor quam diam, a imperdiet orci.
+			        		</p>
+		        		</div>
+		        	</div>
+	        	</div>
+
+	        </div>
+
+        </section>
+
+        <section class="page-wrap" id="section-2">
+        	
+	       <div class="main-column">
+	       		<h4>Subhead goes here</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum. Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        	<p>
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        	<p>
+	        		Etiam imperdiet lorem id sollicitudin scelerisque. Donec euismod vel neque nec venenatis. Integer lobortis vehicula erat nec congue. Donec vitae iaculis elit, ac condimentum leo. Suspendisse suscipit nisi a gravida facilisis. Proin in dignissim massa. Nulla pulvinar rutrum odio at pellentesque. Sed rhoncus eget magna non fermentum. Donec suscipit convallis felis, ut varius sapien viverra in.
+	        	</p>
+	        </div>
+        	
+        	<div class="photo-container">
+
+	        	<img src="assets/army.jpg" alt="Army Control" id="army-photo">
+
+	        	<div class="right-column">
+	        		<hr class="dash">
+	        		<p class="small">Curabitur malesuada ex ac odio condimentum, ac pretium turpis</p>
+	        		<p class="small-source">Name of source</p>
+	        		<hr class="dash">
+	        	</div>
+
+	        </div>
+        	
+	       	<div class="main-column">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum. Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        	<p>
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+	        </div>
+        </section>
+
+        <section id="weapons">
+        	<h4 class="weapon-header">How can a robot disarm a suspect?</h4>
+
+        	<div class="page-wrap" id="weapons-container">
+
+		    	<div class="weapon-box" id="weapon-1">
+		    		<h4 class="weapon-header">&mdash;GUN&mdash;</h4>
+		    		<img src="assets/weapon-bomb.svg" alt="Bomb">
+				</div>
+
+				<div class="weapon-box" id="weapon-2">
+		    		<h4 class="weapon-header">&mdash;BOMB&mdash;</h4>
+					<img src="assets/weapon-bomb.svg" alt="Bomb">
+				</div>
+
+				<div class="weapon-box" id="weapon-3">
+		    		<h4 class="weapon-header">&mdash;PIZZA&mdash;</h4>
+					<img src="assets/weapon-bomb.svg" alt="Bomb">
+				</div>
+			</div>
+		</section>
+
+		<section class="page-wrap" id="section-3">
+        	
+	       <div class="main-column">
+	       		<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum. Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus.
+	        	</p>
+	        	<p>
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium.
+	        	</p>
+	        	<p>
+	        		Etiam imperdiet lorem id sollicitudin scelerisque. Donec euismod vel neque nec venenatis. Integer lobortis vehicula erat nec congue. Donec vitae iaculis elit, ac condimentum leo. Suspendisse suscipit nisi a gravida facilisis. Proin in dignissim massa. Nulla pulvinar rutrum odio at pellentesque. Sed rhoncus eget magna non fermentum. Donec suscipit convallis felis, ut varius sapien viverra in.
+	        	</p>
+	        </div>
+        </section>
+
+        <section id="future">
+
+        	<img src="assets/dallas_bw.jpg" alt="Dallas Standoff" id="photo-dallas">
+        	
+        	<div class="page-wrap">
+
+	        	<div class="main-column">
+		       		<h4 class="red">A new era of law enforcement?</h4>
+					<p class="white">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum. Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+		        	</p>
+		        	<p class="white">
+		        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+		        	</p>
+		        	<p class="white">
+		        		Etiam imperdiet lorem id sollicitudin scelerisque. Donec euismod vel neque nec venenatis. Integer lobortis vehicula erat nec congue. Donec vitae iaculis elit, ac condimentum leo. Suspendisse suscipit nisi a gravida facilisis. Proin in dignissim massa. Nulla pulvinar rutrum odio at pellentesque. Sed rhoncus eget magna non fermentum. Donec suscipit convallis felis, ut varius sapien viverra in.
+		        	</p>
+		        </div>
+
+		    </div>
+
+        </section>
+
+        <section class="page-wrap" id="robot-map">
+        	
+        	<div class="main-column">
+	        	
+	        	<h4>A Lotta 'Bots</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo. Cras varius eros laoreet efficitur facilisis. Fusce eu laoreet ex. Praesent rutrum sed mauris nec dapibus. Curabitur imperdiet neque nec iaculis pulvinar. Nunc varius condimentum vestibulum. Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+
+	        	<div id="map-container">
+		        	<iframe src="https://www.google.com/maps/d/embed?mid=1eFc4bBlfjOQLiqWwX40_mCjcV44"></iframe>
+		        	<p class="small-caption">
+		        		As of 2015, 201 federal, state and local law enforcement agencies had bought at least one explosive ordnance disposal robot through the military's 1033 program. That program distributes excess military equipment to police departments and other agencies across the country. Courtesy of <a href="http://dronecenter.bard.edu/police-robots-in-the-u-s/">Center for the Study of the Drone</a>
+		        	</p>
+		      	</div>
+
+	        	<p>
+	        		Vivamus eget condimentum lacus. Cras non ex pellentesque, euismod tellus sit amet, laoreet ante. Phasellus facilisis auctor lacinia. Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+
+	        	<p>
+	        		Etiam imperdiet lorem id sollicitudin scelerisque. Donec euismod vel neque nec venenatis. Integer lobortis vehicula erat nec congue. Donec vitae iaculis elit, ac condimentum leo. Suspendisse suscipit nisi a gravida facilisis. Proin in dignissim massa. Nulla pulvinar rutrum odio at pellentesque. Sed rhoncus eget magna non fermentum. Donec suscipit convallis felis, ut varius sapien viverra in.
+	        	</p>
+
+	        	<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac arcu id risus accumsan volutpat. Praesent et euismod tellus, sed fringilla leo.
+	        	</p>
+
+	        	<p>
+					Sed posuere id nulla auctor faucibus. Nunc cursus elit sed hendrerit pretium. Sed lacus nunc, varius tincidunt dui vitae, elementum consequat est. Etiam aliquam risus in neque hendrerit, quis fermentum metus tincidunt.
+	        	</p>
+
+	        	<div class="hr-caption"></div>
+
+	        	<p class="small">
+	        		<i class="fa fa-envelope" aria-hidden="true" id="mail-icon"></i>
+	        		<b>Thoughts? Questions? Jokes? Get at me. </b>
+	        		<a href="mailto:ryne@ryneschillinger.com">rynes@ryneschillinger.com</a>
+	        	</p>
+
+	        </div>
+
+        </section>
+
+   		<section id="references">
+
+			<div class="main-column" id="accordion-container">
+				<a href="#" class="accordion-toggle"><h5 class="navy">&mdash; REFERENCES</h5><span class="toggle-icon"><i class="fa fa-angle-down"></i></span></a>
+				<div class="accordion-content">
+					<ul>
+						<li><a href="http://www.npr.org/sections/thetwo-way/2016/07/08/485262777/for-the-first-time-police-used-a-bomb-robot-to-kill">"Bomb Robots: What Happens Next?" by Alina Selyukh</a></li>
+						<li><a>"Robot Cops Near You" by Dan Gettinger</a></li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+        <section id="next-article">
+        	<div class="page-wrap">
+        		<div id="next-container"><a href="">
+		       		<img src="assets/bigsnoop.jpg" class="next-thumb"><!--
+		       	--><div class="dot-overlay" id="next-info">
+	       				<div id="next-text">
+		       				<h5 class="white">&mdash; NEXT ARTICLE</h5>
+		       				<p class="white" id="next-title">‘Shop it Like it’s Hot:<br>The Graphic Style of Southern Hip-Hop</p>
+	       				</div>
+	       				<span id="next-link"><h5 class="white">VIEW&nbsp;</h5>
+	       					<i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+	       			</div>
+		       </div></a>
+        	</div>
+        </section>
+
+        <footer>
+        	<img src="assets/rs_logo-gray.svg" alt="RS Logo" id="rsLogo-gray">
+        	<h5>&copy; 2016 a Ryne Schillinger joint</h4>
+   		</footer>
+
+
+    </body>
+</html>

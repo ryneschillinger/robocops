@@ -1,0 +1,668 @@
+/*** GLOBAL STYLES ***/
+
+body {
+	background-color: #fff;
+}
+
+h1 {
+	color: #ff2634;
+	font-family: Rajdhani;
+	font-size: 90px;
+	font-weight: 700;
+	line-height: .9;
+}
+
+h2 {
+	color: #0e182d;
+	font-family: Rajdhani;
+	font-size: 120px;
+	font-weight: 700;
+}
+
+h3 {
+	color: #ff2634;
+	font-family: Inconsolata;
+	font-weight: 700;
+	font-size: 19px;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	color: #0e182d;
+	font-family: Rajdhani;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.6;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+
+h5 {
+	color: #ff2634;
+	font-family: Inconsolata;
+	font-weight: 700;
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+a {
+	color: #e80017;
+	font-weight: 400;
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: 120ms;
+}
+
+a:hover {
+	color: #ff5252;
+}
+
+p {
+	color: #0e182d;
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 1.6;
+	margin-bottom: 22px;
+}
+
+.white {
+	color: #fff;
+}
+
+.red {
+	color: #ff2634;
+}
+
+.navy {
+	color: #0e182d;
+}
+
+b {
+	font-weight: 700;
+}
+
+p.small {
+	color: #0e182d;
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 15px 0px;
+}
+
+p.small-source {
+	color: #808080;
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-bottom: 18px;
+}
+
+.drop-cap {
+	position: relative;
+	float: left;
+	color: #0e182d;
+	font-family: Rajdhani;
+	font-size: 120px;
+	font-weight: 700;
+	margin: 0 60px 42px 0;
+	line-height: 95px;
+	border-bottom: 13px solid #ff2634;
+}
+
+.page-wrap {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+
+.left-column {
+	display: inline-block;
+    vertical-align: top;
+    width: 13%;
+    margin-right: 20px;
+}
+
+.main-column {
+	display: block;
+	width: 66%;
+	margin: 0 auto;
+}
+
+.right-column {
+	display: inline-block;
+    vertical-align: top;
+    width: 13%;
+    margin-left: 20px;
+}
+
+.dot-overlay {
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/dot.png');
+}
+
+
+/*** HERO SECTION ***/
+
+header {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	background-image: url("../assets/robocop.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left;
+/*	box-shadow: inset 0 0 0 1000px rgba(25,10,12,.12);*/
+}
+
+#rsBrand {
+	padding: 20px 0px 0px 20px;
+	position: relative;
+}
+
+#rsLogo-red {
+	display: inline-block;
+	width: 55px;
+	height: 55px;
+}
+
+#rsName {
+	display: inline-block;
+	position: absolute;
+	top: 52%;
+	margin-left: 13px;
+}
+
+#hero-copy {
+	height: 88vh;
+	position: relative;
+}
+
+#headline-div {
+	display: block;
+	position: absolute;
+	top: 15%;
+	text-align: left;
+}
+
+#headline {
+	max-width: 320px;
+}
+
+#excerpt-div {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+}
+
+#excerpt {
+	max-width: 500px;
+	font-weight: 400;
+}
+
+#arrow-down {
+	width: 46px;
+	height: 46px;
+	margin: 20px 0px;
+}
+
+
+/*** ARTICLE INTRO ***/
+
+#intro {
+	padding-top: 80px;
+}
+
+#date {
+	color: #0e182d;
+	display: inline-block;
+	padding-bottom: 6px;
+	border-bottom: 2px solid #ff2634;
+	margin-bottom: 15px;
+}
+
+#share-buttons {
+	display: block;
+}
+
+.share-button {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+#lead-in {
+	display: inline-block;
+}
+
+
+/* ROBOT DIAGRAM */
+
+#diagram {
+	background-color: #e6ebef;
+	background: linear-gradient(white, #e6ebef); 
+	padding: 80px 0px;
+}
+
+/* Diagram Info Box */
+
+#diagram-info {
+	display: inline-block;
+	max-width: 35%;
+	position: absolute;
+	top: 30%;
+	right: 0;
+	border-style: solid;
+	border-color: #0e182d;
+	border-width: 4px 0px 4px 0px;
+	padding: 20px 0px 10px 0px;
+	margin-right: 34px;
+}
+
+div.info-left {
+	display: inline-block;
+}
+
+div.diagram-text {
+	display: inline-block;
+	width: 88%;
+	float: right;
+}
+
+h4.info-header {
+	color: #323844;;
+	font-family: Rajdhani;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: left;
+	line-height: 1.1;
+	margin-bottom: 20px;
+}
+
+#info-icon {
+	display: inline-block;
+	vertical-align: top;
+	width: 20px;
+	padding-top: 3px;
+}
+
+hr.info-dash {
+	position: absolute;
+	left: 0;
+	bottom: 22px;
+	width: 18px;
+	border-color: #0e182d;
+	border-top: 1px;
+
+}
+
+/* Diagram Image */
+
+#diagram-image {
+	display: inline-block;
+	max-width: 66%;
+}
+
+#diagram-image img {
+	display: inline-block;
+	max-width: 94%;
+}
+
+#diagram-image .node {
+	width: 24px;
+	height: 24px;
+	background-color: #e20000;
+	border: 3px solid white;
+	opacity: .85;
+	border-radius: 50%;
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	transition-property: opacity, background-color;
+	transition-duration: 400ms;
+}
+
+#diagram-image .node:hover {
+	background-color: #ff341f;
+	opacity: 1;
+}
+
+#diagram-image #node-gripper {
+	position: absolute;
+	top: 11%;
+	right: 48%;
+}
+
+#diagram-image #node-camera {
+	position: absolute;
+	top: 27%;
+	right: 87%;
+}
+
+#diagram-image #node-wheels {
+	position: absolute;
+	top: 83%;
+	right: 74%;
+}
+
+#diagram-image #node-speakers {
+	position: absolute;
+	top: 63%;
+	right: 74%;
+}
+
+#diagram-image #node-interface {
+	position: absolute;
+	top: 83%;
+	right: 48%;
+}
+
+
+/* SECOND SECTION */
+
+#section-2 {
+	padding: 60px 0px 55px 0px;
+}
+
+hr.dash {
+	margin: 0;
+	width: 21px;
+	border-color: #0e182d;
+	border-width: 1px;
+}
+
+#section-3 {
+	padding: 60px 0px 55px 0px;
+}
+
+.photo-container {
+	margin: 50px 0px;
+}
+
+#army-photo {
+	max-width: 84%;
+}
+
+/*** WEAPONS SECTION ***/
+
+#weapons {
+	padding-top: 80px;
+	background: linear-gradient(#e6ebef, white); 
+}
+
+#weapons-container {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.weapon-box {
+	display: inline-block;
+	position: relative;
+	width: 32%;
+	background-color: #fff;
+	border: 1px solid #767c89;
+	box-shadow: 0px 4px 0px #323844;
+	padding-top: 20px;
+	margin-top: 25px;
+	top: 0px;
+	transition-property: box-shadow, top;
+	transition-duration: 250ms;
+}
+
+div.weapon-box:hover {
+	box-shadow: 0px 10px 0px #323844;
+	top: -5px;
+ }
+
+h4.weapon-header {
+	color: #323844;;
+	font-family: Rajdhani;
+	font-weight: 700;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.weapon-box img {
+	display: block;
+	max-width: 65%;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 35px;
+}
+
+
+/* FUTURE OF POLICE SECTION*/
+
+#future {
+	background-color: #080102;
+	display: block;
+	padding-bottom: 50px;
+}
+
+#photo-dallas {
+	width: 100%;
+	display: block;
+}
+
+#future .main-column {
+	color: white;
+}
+
+
+/* ROBOT MAP AND -30- */
+
+#robot-map {
+	padding: 65px 0px 55px 0px;
+}
+
+#map-container {
+	display: block;
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+iframe {
+	display: block;
+	width: 100%;
+	height: 50vh;
+	margin-top: 20px;
+}
+
+.scrolloff {
+   	pointer-events: none;
+}
+
+p.small-caption {
+	color: #0e182d;
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.4;
+	margin: 15px 0px;
+	padding-left: 14px;
+	border-left: 3px solid #39404c;
+}
+
+div.hr-caption {
+	width: 100%;
+	height: 1px;
+	border-top: 1px solid #d3d3d3;
+	margin: 55px 0px 20px 0px;
+}
+
+ i.fa-envelope {
+ 	margin-right: 5px;
+ }
+
+
+/* REFERENCES */
+
+#references {
+	position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#accordion-container {
+	margin-bottom: 75px;
+	clear: both;
+}
+
+.accordion-toggle {
+	position: relative;
+	display: block;
+	padding: 20px;
+	background-color: #eff0f1;
+	color: #0e182d;
+	text-decoration: none;
+	transition-property: background-color;
+	transition-duration: 300ms;
+}
+
+.accordion-toggle:hover {
+	background-color: #e5e6e9;
+}
+
+.accordion-toggle.open {
+	background-color: #e5e6e9;
+	color: #0e182d;
+}
+
+.accordion-toggle span.toggle-icon {
+	position: absolute;
+	top: 14px;
+	right: 20px;
+	font-size: 22px;
+	color: #0e182d;
+}
+
+.accordion-content {
+	display: none;
+	padding: 20px;
+	overflow: auto;
+	background-color: #eff0f1;
+	color: #0e182d;
+}
+
+.accordion-content li {
+	padding-bottom: 10px;
+}
+
+.accordion-content a {
+	color: #0e182d;
+	font-family: Roboto Slab;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.2;
+	transition-property: color;
+	transition-duration: 120ms;
+}
+
+.accordion-content a:hover {
+	color: #808080;
+}
+
+
+/* NEXT ARTICLE SECTION */
+
+#next-article {
+	width: 100%;
+	padding: 75px 0px 80px 0px;
+	background-image: url("../assets/bigsnoop_blur.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#next-container {
+	position: relative;
+	background: rgb(14, 24, 45);
+    background: rgba(14, 24, 45, .6);
+    border-radius: 0px 45px 0px 0px;
+    transition-property: background;
+	transition-duration: 300ms;
+}
+
+#next-container:hover {
+	background: rgba(14, 24, 45, .7);
+}
+
+img.next-thumb {
+	display: inline-block;
+	max-width: 25%;
+}
+
+#next-info {
+	display: inline-block;
+	max-width: 75%;
+	border-radius: 0px 45px 0px 0px;
+}
+
+p#next-title {
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 1.4;
+}
+
+#next-text {
+	display: inline-block;
+	max-width: 66%;
+	padding: 28px;
+}
+
+#next-link {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding-bottom: 30px;
+	padding-right: 36px;
+}
+
+#next-info h5 {
+	display: inline-block;
+}
+
+i.fa-long-arrow-right {
+	display: inline-block;
+	color: #fff;
+	font-size: 24px;
+}
+
+
+/* FOOTER */
+
+footer {
+	width: 100%;
+	position: absolute;
+    text-align: center;
+	background-color: #0e182d;
+	padding: 80px 0px 90px 0px;
+}
+
+#rsLogo-gray {
+
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+
+footer h5 {
+	color: #79818e;
+}
+
+
+
