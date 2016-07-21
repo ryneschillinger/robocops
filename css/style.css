@@ -441,11 +441,6 @@ div.weapon-box {
 	transition-duration: 250ms;
 }
 
-div.weapon-box:hover {
-	box-shadow: 0px 10px 0px #323844;
-	top: -5px;
- }
-
 h4.weapon-header {
 	color: #323844;;
 	font-family: Rajdhani;
@@ -460,6 +455,18 @@ h4.weapon-header {
 	max-width: 50%;
 	margin: 0 auto;
 	padding-bottom: 40px;
+}
+
+.front {
+
+}
+
+.back {
+	padding: 20px;
+}
+
+p.weapon-card {
+	text-align: left;
 }
 
 
@@ -758,6 +765,10 @@ footer h5 {
 
 @media all and (max-width: 500px) {
 	
+	#rsName {
+		display: none;
+	}
+
 	#headline {
 		font-size: 65px;
 		max-width: 200px;
@@ -766,7 +777,6 @@ footer h5 {
 	header {
 		background-image: url("../assets/robocop_mobile.jpg");
 		background-repeat: no-repeat;
-		background-size: cover;
 		background-attachment: fixed;
 		background-position: right;
 	}
