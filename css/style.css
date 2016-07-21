@@ -755,3 +755,31 @@ footer h5 {
 	}
 
 }
+
+@media all and (max-width: 500px) {
+	
+	#next-container {
+		max-width: 100%;
+		height: 500px;
+	}
+
+	img.next-thumb {
+		display: block;
+		max-width: 100%;
+		}
+
+	#next-info {
+		display: block;
+		max-width: 100%;
+		border-radius: 0px;
+		height: 290px;
+	}
+
+	#next-container {
+		position: relative;
+	    border-radius: 0px;
+	    transition-property: background;
+		transition-duration: 300ms;
+	}
+
+}
