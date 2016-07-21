@@ -47,8 +47,7 @@ h5 {
 }
 
 a {
-	color: #e80017;
-	font-weight: 400;
+	color: #d80303;
 	text-decoration: none;
 	transition-property: color;
 	transition-duration: 120ms;
@@ -101,16 +100,8 @@ p.small-source {
 	margin-bottom: 18px;
 }
 
-.drop-cap {
-	position: relative;
-	float: left;
-	color: #0e182d;
-	font-family: Rajdhani;
-	font-size: 120px;
-	font-weight: 700;
-	margin: 0 60px 42px 0;
-	line-height: 95px;
-	border-bottom: 13px solid #ff2634;
+.centered {
+	text-align: center;
 }
 
 .page-wrap {
@@ -125,6 +116,7 @@ p.small-source {
     vertical-align: top;
     width: 13%;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .main-column {
@@ -205,6 +197,13 @@ header {
 	width: 46px;
 	height: 46px;
 	margin: 20px 0px;
+	background-image: url("../assets/arrow-down.svg");
+	transition-property: background-image;
+	transition-duration: 200ms;
+}
+
+#arrow-down:hover {
+	background-image: url("../assets/arrow-down-hover.svg");
 }
 
 
@@ -232,6 +231,24 @@ header {
 	height: 24px;
 	padding-right: 5px;
 	padding-bottom: 5px;
+	transition-property: opacity;
+	transition-duration: 200ms;
+}
+
+.share-button:hover {
+	opacity: .85;
+}
+
+.drop-cap {
+	position: relative;
+	float: left;
+	color: #0e182d;
+	font-family: Rajdhani;
+	font-size: 120px;
+	font-weight: 700;
+	margin: 0 60px 42px 0;
+	line-height: 95px;
+	border-bottom: 13px solid #ff2634;
 }
 
 #lead-in {
@@ -365,9 +382,9 @@ hr.info-dash {
 }
 
 
-/* SECOND SECTION */
+/* ARMY SECTION */
 
-#section-2 {
+#army {
 	padding: 60px 0px 55px 0px;
 }
 
@@ -392,9 +409,17 @@ hr.dash {
 
 /*** WEAPONS SECTION ***/
 
-#weapons {
+#disarm-1 {
 	padding-top: 80px;
 	background: linear-gradient(#e6ebef, white); 
+}
+
+#disarm-2 {
+	margin-bottom: 75px;
+}
+
+#weapons {
+	margin: 55px 0 55px 0;
 }
 
 #weapons-container {
@@ -411,7 +436,6 @@ div.weapon-box {
 	border: 1px solid #767c89;
 	box-shadow: 0px 4px 0px #323844;
 	padding-top: 20px;
-	margin-top: 25px;
 	top: 0px;
 	transition-property: box-shadow, top;
 	transition-duration: 250ms;
@@ -433,10 +457,9 @@ h4.weapon-header {
 
 .weapon-box img {
 	display: block;
-	max-width: 65%;
+	max-width: 50%;
 	margin: 0 auto;
-	padding-top: 0px;
-	padding-bottom: 35px;
+	padding-bottom: 40px;
 }
 
 
@@ -647,21 +670,82 @@ i.fa-long-arrow-right {
 footer {
 	width: 100%;
 	position: absolute;
-    text-align: center;
 	background-color: #0e182d;
 	padding: 80px 0px 90px 0px;
 }
 
 #rsLogo-gray {
-
 	width: 80px;
 	height: 80px;
-	margin-bottom: 20px;
+	background-image: url("../assets/rs_logo-gray.svg");
+	margin: 0 auto;
+	transition-property: background-image;
+	transition-duration: 200ms;
+}
+
+#rsLogo-gray:hover {
+	background-image: url("../assets/rs_logo-gray-hover.svg");
 }
 
 footer h5 {
 	color: #79818e;
+	text-align: center;
+	margin-top: 20px;
 }
 
 
+/* MEDIA QUERIES */
 
+@media all and (max-width: 1060px) {
+	
+	#headline {
+		font-size: 75px;
+	}
+
+	.drop-cap {
+		margin: 0 30px 22px 0;
+	}
+
+	#army-photo {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	.right-column {
+		display: block;
+		margin-top: 20px;
+		padding: 0px 2%;
+	    width: 100%;
+	}
+
+}
+
+@media all and (max-width: 800px) {
+	
+	.left-column {
+		width: 100%;
+	}
+
+	#date {
+		width: 100%;
+		border-bottom: 1px solid #d3d3d3;
+	}
+
+	#lead-in {
+		display: block;
+		width: 100%;
+	}
+
+	.main-column {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#diagram-info {
+		display: block;
+		max-width: 100%;
+		padding: 20px;
+	}
+
+}

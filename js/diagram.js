@@ -74,7 +74,7 @@ $(function(){
     	ui.css("opacity", 1);
     	container.fadeOut(250,
     		function(){
-		    	icon.attr("src", "./assets/icon_interface.svg"); 
+		    	icon.attr("src", "./assets/icon_control.svg"); 
 		    	title.text("CONTROL");
 		    	blurb.text("They can be controlled wirelessly using a joystick and monitor or, more likely these days, a tablet or other small computer that displays images from the robot’s cameras.");
 		    }
