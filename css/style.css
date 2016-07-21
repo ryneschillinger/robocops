@@ -727,10 +727,6 @@ footer h5 {
 }
 
 @media all and (max-width: 800px) {
-	
-	.page-wrap {
-	    max-width: 100%;
-	}
 
 	.left-column {
 		width: 100%;
@@ -763,7 +759,8 @@ footer h5 {
 @media all and (max-width: 500px) {
 	
 	#headline {
-		font-size: 55px;
+		font-size: 65px;
+		max-width: 200px;
 	}
 
 	header {
