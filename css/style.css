@@ -728,6 +728,10 @@ footer h5 {
 
 @media all and (max-width: 800px) {
 	
+	.page-wrap {
+	    max-width: 100%;
+	}
+
 	.left-column {
 		width: 100%;
 	}
@@ -758,12 +762,16 @@ footer h5 {
 
 @media all and (max-width: 500px) {
 	
+	#headline {
+		font-size: 55px;
+	}
+
 	header {
 		background-image: url("../assets/robocop_mobile.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-attachment: fixed;
-		background-position: center;
+		background-position: right;
 	}
 
 
