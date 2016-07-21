@@ -758,6 +758,15 @@ footer h5 {
 
 @media all and (max-width: 500px) {
 	
+	header {
+		background-image: url("../assets/robocop_mobile.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+	}
+
+
 	#next-container {
 		max-width: 100%;
 		height: 420px; /* I did this just to make it look good on the phone for presentation. I'm revisting. */
