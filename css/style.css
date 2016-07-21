@@ -788,4 +788,9 @@ footer h5 {
 		transition-duration: 300ms;
 	}
 
+	#next-link {
+		padding-bottom: 5%;
+		padding-right: 5%;
+	}
+
 }
