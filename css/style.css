@@ -33,7 +33,7 @@ h4 {
 	font-family: Rajdhani;
 	font-weight: 700;
 	font-size: 20px;
-	line-height: 1.6;
+	line-height: 1.3;
 	text-transform: uppercase;
 	margin-bottom: 22px;
 }
@@ -713,9 +713,15 @@ footer h5 {
 
 	.right-column {
 		display: block;
+		vertical-align: top;
+		margin-left: 0px;
 		margin-top: 20px;
-		padding: 0px 2%;
+		padding: 0px 5% 0px 5%;
 	    width: 100%;
+	}
+
+	#army-caption {
+		width: 100vw;
 	}
 
 }
