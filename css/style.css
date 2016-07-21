@@ -760,7 +760,7 @@ footer h5 {
 	
 	#next-container {
 		max-width: 100%;
-		height: 500px; /* I did this just to make it look good on the phone for presentation. I'm revisting. */
+		height: 420px; /* I did this just to make it look good on the phone for presentation. I'm revisting. */
 	}
 
 	img.next-thumb {
@@ -772,7 +772,7 @@ footer h5 {
 		display: block;
 		max-width: 100%;
 		border-radius: 0px;
-		height: 290px; /* Same as above. */
+		height: 210px; /* Same as above. */
 	}
 
 	#next-text {
