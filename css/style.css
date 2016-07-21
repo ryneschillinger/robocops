@@ -777,7 +777,7 @@ footer h5 {
 	header {
 		background-image: url("../assets/robocop_mobile.jpg");
 		background-repeat: no-repeat;
-		background-attachment: fixed;
+		background-size: cover;
 		background-position: right;
 	}
 
