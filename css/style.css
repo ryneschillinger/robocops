@@ -24,7 +24,7 @@ h3 {
 	font-family: Inconsolata;
 	font-weight: 700;
 	font-size: 19px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	margin-bottom: 10px;
 }
 
@@ -180,27 +180,20 @@ header {
 	margin-left: 13px;
 }
 
-#hero-copy {
+#hero-container {
 	height: 88vh;
 	position: relative;
 }
 
-#headline-div {
+#hero-copy {
 	display: block;
 	position: absolute;
-	top: 15%;
+	bottom: 0;
 	text-align: left;
 }
 
 #headline {
 	max-width: 320px;
-}
-
-#excerpt-div {
-	display: block;
-	position: absolute;
-	bottom: 0;
-	text-align: left;
 }
 
 #excerpt {
@@ -318,19 +311,25 @@ hr.info-dash {
 	max-width: 94%;
 }
 
-#diagram-image .node {
-	width: 24px;
-	height: 24px;
+.node {
+	width: 22px;
+	height: 22px;
 	background-color: #e20000;
-	border: 3px solid white;
-	opacity: .85;
+	border: 4px solid white;
+	opacity: .88;
 	border-radius: 50%;
 	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
 	transition-property: opacity, background-color;
 	transition-duration: 400ms;
 }
 
-#diagram-image .node:hover {
+.node:hover {
+	background-color: #ff341f;
+	opacity: 1;
+}
+
+.node-active {
 	background-color: #ff341f;
 	opacity: 1;
 }
