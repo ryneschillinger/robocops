@@ -780,6 +780,10 @@ footer h5 {
 		background-position: right;
 	}
 
+	.left-column {
+	    margin-right: 0px;
+	}
+
 
 	#next-container {
 		max-width: 100%;
