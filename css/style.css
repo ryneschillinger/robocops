@@ -433,12 +433,17 @@ div.weapon-box {
 	position: relative;
 	width: 32%;
 	background-color: #fff;
-	border: 1px solid #767c89;
-	box-shadow: 0px 4px 0px #323844;
+	border: 1px solid #979797;
+	box-shadow: 0px 4px 0px #979797;
 	padding-top: 20px;
 	top: 0px;
 	transition-property: box-shadow, top;
 	transition-duration: 250ms;
+}
+
+div.weapon-box:hover {
+	box-shadow: 0px 9px 0px #979797;
+	top: -5px;
 }
 
 h4.weapon-header {
@@ -452,9 +457,8 @@ h4.weapon-header {
 
 .weapon-box img {
 	display: block;
-	max-width: 50%;
+	max-width: 60%;
 	margin: 0 auto;
-	padding-bottom: 40px;
 }
 
 .front {
