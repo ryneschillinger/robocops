@@ -1,5 +1,5 @@
 $(function(){
-    $('.accordion-toggle').on('click', function(event){
+    $(".accordion-toggle").on("click", function(event){
     	event.preventDefault();
 
     	// create accordion variables
