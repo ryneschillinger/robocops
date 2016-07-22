@@ -850,4 +850,8 @@ footer h5 {
 		margin: 0 auto;
 	}
 
+	hr.dash {
+		display: none;
+	}
+
 }
