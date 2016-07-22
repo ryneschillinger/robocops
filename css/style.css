@@ -824,7 +824,30 @@ footer h5 {
 
 	#next-link {
 		padding-bottom: 5%;
-		padding-right: 5%;
+	}
+
+	#weapons-container {
+		display: inline;
+		padding: 5%;
+	}
+
+	div.weapon-box {
+		display: block;
+		position: relative;
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		top: 0px;
+		transition-property: box-shadow, top;
+		transition-duration: 250ms;
+	}
+
+	.weapon-box img {
+		display: block;
+		max-width: 35%;
+		margin: 0 auto;
 	}
 
 }
