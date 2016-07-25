@@ -825,6 +825,10 @@ footer h5 {
 		max-width: 180px;
 	}
 
+	#hero-copy {
+		width: 100%;
+	}
+
 	header {
 		background-image: url("../assets/robocop_mobile.jpg");
 		background-attachment: scroll;
