@@ -58,7 +58,7 @@ $(function(){
     	nodes.removeAttr("style");
     	speaker.css("background-color", "#ff341f");
     	speaker.css("opacity", 1);
-    	container.fadeOut(150,
+    	container.fadeOut(250,
     		function(){
 		    	icon.attr("src", "./assets/icon_speaker.svg"); 
 		    	title.text("SPEAKERS");

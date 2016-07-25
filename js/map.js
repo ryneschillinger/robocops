@@ -1,15 +1,13 @@
 $(function(){
 
         var map = $("iframe")
-        var container = $("#map-container")
+        var tap = $("#tap")
 
         map.addClass("scrolloff"); 
 
-        container.click(function(){
+        tap.click(function(){
+        	tap.remove();
             map.removeClass("scrolloff"); 
         });
 
-        container.mouseleave(function (){
-            map.addClass("scrolloff"); 
-        });
 });
