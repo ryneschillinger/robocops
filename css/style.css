@@ -898,13 +898,13 @@ footer h5 {
 	}
 
 	.quote {
-		font-size: 38px;
+		font-size: 36px;
 	}
 
 	#quote-container h5 {
 		padding: 7px 10px;
 		text-transform: uppercase;
-		letter-spacing: 4px;
+		letter-spacing: 3px;
 		position: relative;
 	}
 
