@@ -320,6 +320,7 @@ hr.info-dash {
 
 #diagram-image {
 	display: inline-block;
+	position: relative;
 	max-width: 66%;
 }
 
@@ -354,31 +355,31 @@ hr.info-dash {
 #diagram-image #node-gripper {
 	position: absolute;
 	top: 11%;
-	right: 48%;
+	right: 21%;
 }
 
 #diagram-image #node-camera {
 	position: absolute;
 	top: 27%;
-	right: 87%;
+	right: 83%;
 }
 
 #diagram-image #node-wheels {
 	position: absolute;
 	top: 83%;
-	right: 74%;
+	right: 63%;
 }
 
 #diagram-image #node-speakers {
 	position: absolute;
-	top: 63%;
-	right: 74%;
+	top: 62%;
+	right: 63%;
 }
 
 #diagram-image #node-interface {
 	position: absolute;
 	top: 83%;
-	right: 48%;
+	right: 21%;
 }
 
 
@@ -806,10 +807,38 @@ footer h5 {
 		margin: 0 auto;
 	}
 
+	#diagram {
+		width: 100%;
+		padding: 40px 0px;
+	}
+
 	#diagram-info {
 		display: block;
+		position: relative;
 		max-width: 100%;
 		padding: 20px;
+		margin-right: 0px;
+		height: 168px;
+	}
+
+	#diagram-image {
+		display: block;
+		width: 450px;
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+
+	div.diagram-text {
+		display: inline-block;
+		width: 90%;
+		float: right;
+	}
+
+	hr.info-dash {
+		left: 20px;
+		bottom: 22px;
+		width: 18px;
 	}
 
 }
